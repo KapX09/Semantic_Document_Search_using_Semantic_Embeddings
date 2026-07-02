@@ -1,10 +1,12 @@
 # Semantic PDF Search
 
-## Semantic_Document_Search_using_Semantic_Embedding
+
+## Semantic Document Search using Semantic Embeddings
+
 
 Local RAG system for semantic search over PDF documents. Upload a PDF, ask a question in plain language, get the most relevant sections back — ranked by meaning, not keywords.
 
-## Features
+### Features
 
 - PDF upload and text extraction
 - Sentence-aware chunking
@@ -14,11 +16,11 @@ Local RAG system for semantic search over PDF documents. Upload a PDF, ask a que
 - File-hash caching (skip re-embedding unchanged PDFs)
 - Gradio UI
 
-## Preview
+### Preview
 
 ![App screenshot](./assets/one.png)
 
-## Run locally
+### Run locally
 
 ```bash
 python -m venv venv
@@ -29,7 +31,7 @@ python app.py
 
 Opens at `http://localhost:7860`.
 
-## Stack
+### Stack
 
 | Component | Tool |
 |---|---|
@@ -38,10 +40,8 @@ Opens at `http://localhost:7860`.
 | PDF parsing | PyMuPDF |
 | UI | Gradio |
 
-## Notes
+
+#### Notes
 
 Built as an educational project demonstrating embeddings, vector databases, and semantic retrieval. Index cache is local and ephemeral on Hugging Face Spaces — persists across soft restarts only, not fresh deploys.
 
-## License
-
-MIT
