@@ -18,7 +18,7 @@ Local RAG system for semantic search over PDF documents. Upload a PDF, ask a que
 
 ### Preview
 
-![App screenshot](./assets/one.png)
+![App screenshot](asset/one.png)
 
 ### Run locally
 
