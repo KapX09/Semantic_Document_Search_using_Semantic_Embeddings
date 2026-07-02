@@ -4,7 +4,7 @@
 ## Semantic Document Search using Semantic Embeddings
 
 
-Local RAG system for semantic search over PDF documents. Upload a PDF, ask a question in plain language, get the most relevant sections back — ranked by meaning, not keywords.
+Local RAG system for semantic search over PDF documents. Upload a PDF, ask a question in plain language, get the most relevant sections back ranked by meaning, not keywords.
 
 ### Features
 
