@@ -5,6 +5,8 @@
 
 
 Local RAG system for semantic search over PDF documents. Upload a PDF, ask a question in plain language, get the most relevant sections back ranked by meaning, not keywords.
+checkout using pdf serach: [https://huggingface.co/spaces/KD0009/SemanticPDFReader](https://huggingface.co/spaces/KD0009/SemanticPDFReader)
+
 
 ### Features
 
@@ -40,8 +42,25 @@ Opens at `http://localhost:7860`.
 | PDF parsing | PyMuPDF |
 | UI | Gradio |
 
+### Deployment on Hugging face
 
-#### Notes
+- Create Space: huggingface.co/new-space → SDK: Gradio
+- Clone repo locally: ```git clone https://huggingface.co/spaces/<user>/<space-name>```
+- Copy app.py, requirements.txt into it
+- ```git add . && git commit -m "init" && git push```
+- Space auto-builds, gives you a live URL
 
-Built as an educational project demonstrating embeddings, vector databases, and semantic retrieval. Index cache is local and ephemeral on Hugging Face Spaces — persists across soft restarts only, not fresh deploys.
+### Perform
 
+1. Docs you can use:
+   
+For richer multi-page text (better for semantic search testing): arxiv paper PDF, e.g. https://arxiv.org/pdf/1706.03762 (the "Attention Is All You Need" paper). For a quick trivialtest: https://www.orimi.com/pdf-test.pdf (single page).
+
+2. Querries to ask:
+
+What is self-attention?
+How does multi-head attention work?
+Why avoid recurrence in sequence models?
+What is positional encoding?
+How is the Transformer trained?
+BLEU Score?
